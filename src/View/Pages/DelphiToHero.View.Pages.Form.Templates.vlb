@@ -1,0 +1,13 @@
+﻿[pnlPrincipal]
+Coordinates=196,10,73,51
+
+[PnlFundo]
+Coordinates=69,10,61,51
+
+[PnlTop]
+Coordinates=10,10,49,51
+
+[]
+Coordinates=140,10,46,51
+Visible=True
+

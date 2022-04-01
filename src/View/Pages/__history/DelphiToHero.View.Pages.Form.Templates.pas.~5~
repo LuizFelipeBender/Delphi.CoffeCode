@@ -1,0 +1,78 @@
+unit DelphiToHero.View.Pages.Form.Templates;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,Router4D.Interfaces, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Vcl.Buttons, System.ImageList, Vcl.ImgList, Vcl.Imaging.pngimage;
+
+type
+  TFormTemplate = class(TForm, iRouter4DComponent)
+	 PnlFundo: TPanel;
+	 PnlTop: TPanel;
+	 pnlPrincipal: TPanel;
+    Label1: TLabel;
+	 Panel1: TPanel;
+	 Label2: TLabel;
+	 Image1: TImage;
+    Label3: TLabel;
+    Panel2: TPanel;
+    Image2: TImage;
+    Label4: TLabel;
+	 procedure FormCreate(Sender: TObject);
+    procedure Panel1MouseEnter(Sender: TObject);
+    procedure Panel2MouseEnter(Sender: TObject);
+  private
+	 { Private declarations }
+  public
+	 { Public declarations }
+  function Render : TForm;
+  procedure UnRender;
+  end;
+
+var
+  FormTemplate: TFormTemplate;
+
+implementation
+
+uses DelphiToHero.View.Styles.Colors;
+
+{$R *.dfm}
+
+procedure TFormTemplate.FormCreate(Sender: TObject);
+begin
+
+PnlFundo.Color := COLOR_BACKGROUND;
+PnlTop.Color := COLOR_BACKGROUND;;
+pnlPrincipal.Color := COLOR_BACKGROUND;
+
+Label1.Font.Size := FONT_H5;
+Label1.Font.Color := FONT_COLOR3;
+Label1.Font.Name := 'Segoe UI';
+
+end;
+
+
+
+procedure TFormTemplate.Panel1MouseEnter(Sender: TObject);
+begin
+ Panel1.Color := clred;
+end;
+
+procedure TFormTemplate.Panel2MouseEnter(Sender: TObject);
+begin
+ Panel1.Color := clred;
+end;
+
+function TFormTemplate.Render: TForm;
+begin
+	  Result := Self;
+end;
+
+procedure TFormTemplate.UnRender;
+begin
+
+end;
+
+end.

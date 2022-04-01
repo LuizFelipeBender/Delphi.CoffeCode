@@ -1,0 +1,39 @@
+unit DelphiToHero.View.Pages.Usuarios;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms,Router4D.Interfaces, Vcl.Dialogs, Vcl.ExtCtrls;
+
+type
+  TForm3 = class(TForm)
+    Panel1: TPanel;
+  private
+    { Private declarations }
+  public
+	 { Public declarations }
+	 function Render : Tform;
+	 procedure Underender;
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm3 }
+
+function TForm3.Render: Tform;
+begin
+Result := Self;
+end;
+
+procedure TForm3.Underender;
+begin
+
+end;
+
+end.

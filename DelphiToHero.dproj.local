@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/31 10:21:15.000.685,=C:\Users\Dev4\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/31 16:41:41.000.342,=C:\Users\Dev4\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/31 16:43:07.000.627,C:\Users\Dev4\Documents\HERO\src\View\DelphiToHero.View.Main.pas=C:\Users\Dev4\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/31 16:43:07.000.627,C:\Users\Dev4\Documents\HERO\src\View\DelphiToHero.View.Main.dfm=C:\Users\Dev4\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/31 16:43:54.000.169,C:\Users\Dev4\Documents\HERO\DelphiToHero.dproj=C:\Users\Dev4\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/31 17:10:36.000.023,=C:\Users\Dev4\Documents\HERO\Unit1.pas</Transaction>
+    <Transaction>2022/03/31 17:11:59.000.999,C:\Users\Dev4\Documents\HERO\Unit1.pas=C:\Users\Dev4\Documents\HERO\src\View\Styles\DelphiToHero.View.Styles.Colors.pas</Transaction>
+    <Transaction>2022/03/31 17:20:45.000.983,=C:\Users\Dev4\Documents\HERO\Unit2.pas</Transaction>
+    <Transaction>2022/03/31 17:22:38.000.597,C:\Users\Dev4\Documents\HERO\Unit2.pas=C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Principal.pas</Transaction>
+    <Transaction>2022/03/31 17:22:38.000.598,C:\Users\Dev4\Documents\HERO\Unit2.dfm=C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Principal.dfm</Transaction>
+    <Transaction>2022/03/31 17:23:20.000.153,=C:\Users\Dev4\Documents\HERO\Unit3.pas</Transaction>
+    <Transaction>2022/03/31 17:25:00.000.579,C:\Users\Dev4\Documents\HERO\Unit3.pas=C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas</Transaction>
+    <Transaction>2022/03/31 17:25:00.000.579,C:\Users\Dev4\Documents\HERO\Unit3.dfm=C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm</Transaction>
+    <Transaction>2022/03/31 17:37:20.000.074,=C:\Users\Dev4\Documents\HERO\Unit1.pas</Transaction>
+    <Transaction>2022/03/31 17:52:56.000.465,C:\Users\Dev4\Documents\HERO\Unit1.pas=C:\Users\Dev4\Documents\HERO\src\View\Routers\DelphiToHero.View.Routers.pas</Transaction>
+    <Transaction>2022/04/01 08:53:12.959,C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=</Transaction>
+    <Transaction>2022/04/01 08:58:50.649,=C:\Users\Dev4\Documents\HERO\Unit1.pas</Transaction>
+    <Transaction>2022/04/01 08:59:19.628,=C:\Users\Dev4\Documents\HERO\Unit3.pas</Transaction>
+    <Transaction>2022/04/01 09:00:39.173,C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Form.Templates.pas=C:\Users\Dev4\Documents\HERO\Unit3.pas</Transaction>
+    <Transaction>2022/04/01 09:00:39.173,C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Form.Templates.dfm=C:\Users\Dev4\Documents\HERO\Unit3.dfm</Transaction>
+    <Transaction>2022/04/01 09:39:02.965,=C:\Users\Dev4\Documents\HERO\Unit1.pas</Transaction>
+    <Transaction>2022/04/01 09:39:49.626,C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm=C:\Users\Dev4\Documents\HERO\Unit1.dfm</Transaction>
+    <Transaction>2022/04/01 09:39:49.626,C:\Users\Dev4\Documents\HERO\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=C:\Users\Dev4\Documents\HERO\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\View"/>
+    <File Path="src\View\Pages"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Form.Templates.pas"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Form.Templates.dfm"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Principal.pas"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Principal.dfm"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm"/>
+    <File Path="src\View\Routers"/>
+    <File Path="src\View\Routers\DelphiToHero.View.Routers.pas"/>
+    <File Path="src\View\Styles"/>
+    <File Path="src\View\Styles\DelphiToHero.View.Styles.Colors.pas"/>
+    <File Path="src\View\DelphiToHero.View.Main.pas"/>
+    <File Path="src\View\DelphiToHero.View.Main.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

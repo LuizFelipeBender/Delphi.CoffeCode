@@ -1,0 +1,12 @@
+inherited FormTemplate1: TFormTemplate1
+  Caption = 'FormTemplate1'
+  ExplicitLeft = -28
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited PnlFundo: TPanel
+    inherited PnlTop: TPanel
+      ExplicitLeft = -152
+      ExplicitTop = 32
+    end
+  end
+end

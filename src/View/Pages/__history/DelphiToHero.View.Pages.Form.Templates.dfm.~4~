@@ -1,0 +1,214 @@
+object FormTemplate: TFormTemplate
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'FormTemplate'
+  ClientHeight = 308
+  ClientWidth = 495
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PnlFundo: TPanel
+    Left = 0
+    Top = 0
+    Width = 495
+    Height = 308
+    Align = alClient
+    BevelOuter = bvNone
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 208
+    ExplicitTop = 112
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object PnlTop: TPanel
+      Left = 0
+      Top = 0
+      Width = 495
+      Height = 49
+      Align = alTop
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+      ExplicitTop = -6
+      object Label1: TLabel
+        Left = 0
+        Top = 0
+        Width = 55
+        Height = 49
+        Align = alLeft
+        Caption = 'Label1'
+        ExplicitLeft = 40
+        ExplicitTop = 8
+        ExplicitHeight = 37
+      end
+      object Panel1: TPanel
+        Left = 384
+        Top = 0
+        Width = 111
+        Height = 49
+        Cursor = crHandPoint
+        Align = alRight
+        Padding.Left = 1
+        Padding.Top = 1
+        Padding.Right = 1
+        Padding.Bottom = 1
+        ParentBackground = False
+        TabOrder = 0
+        OnMouseEnter = Panel1MouseEnter
+        object Label2: TLabel
+          Left = 36
+          Top = 2
+          Width = 73
+          Height = 45
+          Align = alClient
+          Alignment = taCenter
+          Caption = 'Relatorios'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = 20
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          Layout = tlCenter
+          OnMouseEnter = Panel1MouseEnter
+          ExplicitLeft = 42
+          ExplicitTop = 4
+          ExplicitWidth = 83
+          ExplicitHeight = 36
+        end
+        object Image1: TImage
+          Left = 2
+          Top = 2
+          Width = 34
+          Height = 45
+          Align = alLeft
+          Enabled = False
+          Picture.Data = {
+            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
+            00200806000000737A7AF40000000473424954080808087C0864880000000970
+            485973000000EC000000EC01792871BD0000001974455874536F667477617265
+            007777772E696E6B73636170652E6F72679BEE3C1A000002764944415478DADD
+            975B884D511880FFA10C45665C661AC21B724B8C27738AC8E581A7497960F222
+            9A8C9022B7348E79D05072CB0346CA94176F48942825875C4AF242D1C9832162
+            DC62BEBFF5CB6ADBD97BEDD943CD5F5F3367EDB5D7FFAD75D6FED73E15F267DC
+            8269F043F28D01F0181AFCC68A988EDA6931BCCA59602C5CB1C96512D80CADF0
+            25215125EC8283790BEC83321C4D1068863AD819691F6302D3B30A6C3289342B
+            A0C90F45DA35D72C286515E86DE8269C0B37430446C26E2840179C8753F0D3FA
+            2E8F99695C5C83BD12B8073EC11D3809F3E1AAFD7D0E2DDEFD55290474AC51A1
+            021BE003146DE61D701DEE43233CB17EC5140237C43D154102E760233CB4FFA7
+            C01B982C6E93A9D060989A42A06CB98204DA2DC925A8817176FD80A1ED055BA9
+            A428D9248204668ADB380BE19D5D9B072760367C8411E21EADA4D00DFD3E5440
+            6FDA2AAEB0E8A3A39B6D22AC847BD65793AF881943E55A236D992BA156B57A78
+            0B77E1B3D757BF96A5316368DF0B7909E4159904D64275C2C017E169BF155802
+            C31206BE0D2F236DFA742CF03E6B45FD9E45404FBFD109025AAA4B91365DB9F5
+            9678925D0FAE842A30078647AE3F83170952EB60026C87D53043DCA1152C705C
+            DC89E8C7657127E2AF58067BBCCF5A25AB3D81A1C6C02C0269428B552D1C8326
+            6B2B7B02E3C595F2725A8107B0085E07080C12772AB6D88AF9026BC4BD86B5A7
+            15A80D48DE2702ABA013BEC55CF3DF8CF528D6E3BA2A6F81BFED013D1DF59DE0
+            30EC80AFD6DE3F05F4C66D964497BBC96EFE67025BE0119C863671C5A7EE7FAD
+            C01071154D7FDDEC97DF9BB0D9C63822EE3DA1D292AAC059E836399DC0993CF6
+            406F22F569D8973FCFF52B2DF88D3D50E7E2217A80213F0000000049454E44AE
+            426082}
+          Proportional = True
+          OnMouseEnter = Panel1MouseEnter
+          ExplicitHeight = 35
+        end
+        object Label3: TLabel
+          Left = 36
+          Top = 2
+          Width = 73
+          Height = 45
+          Align = alClient
+          Alignment = taCenter
+          Caption = 'Relatorios'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = 20
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          Layout = tlCenter
+          OnMouseEnter = Panel1MouseEnter
+          ExplicitLeft = -12
+          ExplicitTop = 42
+          ExplicitWidth = 83
+        end
+      end
+      object Panel2: TPanel
+        Left = 272
+        Top = 0
+        Width = 112
+        Height = 49
+        Align = alRight
+        ParentBackground = False
+        TabOrder = 1
+        OnMouseEnter = Panel2MouseEnter
+        ExplicitLeft = 258
+        object Image2: TImage
+          Left = 0
+          Top = 2
+          Width = 33
+          Height = 35
+          Picture.Data = {
+            0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
+            00200806000000737A7AF40000000473424954080808087C0864880000000970
+            485973000000EC000000EC01792871BD0000001974455874536F667477617265
+            007777772E696E6B73636170652E6F72679BEE3C1A000002354944415478DADD
+            974D4855411480CF8B502A922CA1A8CD73910BC9851561F920E8EF89B4B14508
+            2EA21649D4466811162D346851E0A2225A1428443F4482887F21FD490BB15A14
+            8145F5C08D1005112428A4DF71EE2319EEE3DE3BA3061DF8E0BD79EF9EFBDD99
+            B9336752923C2AA00FD65BEDDFA11E3E2549967210688595D066B55F8419B8EC
+            2B70006EC35AAB7D55F0FFDF113957C32C4C59EDBFE0040C4709BC82F3F0D46A
+            BF0493703D42E00C6C820B56FB3E6887DA2881F790855BB0C7EA81B3702342E0
+            345CB57A401FAA1906615B5C815E68809C670FA4A11B0EFB0A1C827B05AE790D
+            07E12ED441233C596C01D7C80BE803F4C3CEA40257607F81E41F20137CBE064D
+            D6EF8FC50C9D0A5443114C2715781824B617189D949F6173CC1ED80DA7A06329
+            0474BC4B43723D133369BDE6401C818DB02624D70F58B71C02F7614348AE97D0
+            B51C0295C1773BBEC10A5F8107F0157E5AFFD30D49DFF92D62DE9492905C6F61
+            C057A00CCA253C26836ECE1610F822669BF612D80E5BC52D74D8DEF80AE8F856
+            390ABC13B3587909A4C554412EF151CC52EE2590B12F4A109A6BC457402B9CA8
+            E5566302C643DAD3BE0247A026868056503797422097A8D3FF27811D620A8899
+            7F25502C66251B825DF027E18D750F188593AE023D6286E091846F4651A1ABA7
+            D688475D05F273402B98BD4E9D2FF21C5A7C05728E37CF47DA55A0534C059B74
+            ECEDD0B93006C7E20AE829E61CBCF0BCB11D3A8C7A705D78DA0A15D0FAFD8E98
+            257831430FB5C7E5EF81653EE600F761C821578C06650000000049454E44AE42
+            6082}
+        end
+        object Label4: TLabel
+          Left = 48
+          Top = 12
+          Width = 62
+          Height = 20
+          Caption = 'Cadastro'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = 20
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+        end
+      end
+    end
+    object pnlPrincipal: TPanel
+      Left = 0
+      Top = 49
+      Width = 495
+      Height = 259
+      Cursor = crArrow
+      Align = alRight
+      BevelOuter = bvNone
+      TabOrder = 1
+      ExplicitLeft = -2
+      ExplicitTop = 53
+    end
+  end
+end
